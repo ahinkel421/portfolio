@@ -3,20 +3,33 @@
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 }
 
-.skill {
-	width: 15%;
+main {
+	text-align: center;
+	margin: 100px;
+}
+
+h1 {
+	font-family: Josefin Sans,sans-serif;
+	font-size: 80px;
+	margin-top: 125px;
+	margin-bottom: 0;
+}
+
+ul {
+	list-style-type: none;
 }
 
 .navbar {
-	background-color: #2e2e2e;
+	background-color: #545454f5;
 	position: fixed;
 	left: 0;
 	top: 0;
 	right: 0;
-	height: 60px;
+	height: 50px;
+	text-align: center;
 }
 
 .nav-links {
@@ -24,12 +37,18 @@ body {
 	text-decoration: none;
 }
 
+.adam-logo {
+	width: 50px;
+	height: 50px;
+}
+
 .left-nav-link, .right-nav-link {
 	text-decoration: none;
 	color: white;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: normal;
 	position: absolute;
+	top: 14px;
 }
 
 .linkedin-link {
@@ -40,15 +59,30 @@ body {
 	right: 160px;
 }
 
-ul {
-	list-style-type: none;
+.projects-link {
+	left: 160px;
 }
 
-h1 {
-	font-family: 'Alegreya', serif;
-	font-size: 60px;
+.about-me-link {
+	left: 30px;
 }
 
-p {
-	font-family: 'Open Sans', sans-serif;
+.title {
+	font-size: 15px;
+	margin-top: 0;
 }
+
+.headshot {
+	border-radius: 100%;
+	width: 20%;
+	margin-top: 32px;
+}
+
+.skill {
+	width: 15%;
+}
+
+
+
+
+
