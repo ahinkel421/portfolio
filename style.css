@@ -15,7 +15,11 @@ section {
 	margin: 80px 0;
 }
 
-h1 {
+a {
+	text-decoration: none;
+}
+
+h1, .thanks {
 	font-family: Josefin Sans,sans-serif;
 	font-size: 90px;
 	margin-top: 125px;
@@ -45,17 +49,18 @@ ul {
 
 .nav-links {
 	display: inline-block;
-	text-decoration: none;
 }
 
 .adam-logo {
 	width: 50px;
 	height: 50px;
 	padding: 3px;
+	background-image: url("images/color-logo.png");
+	transition-duration: .6s;
+  	transition-timing-function: ease;
 }
 
 .left-nav-link, .right-nav-link {
-	text-decoration: none;
 	padding: 5px;
 	color: white;
 	font-size: 15px;
@@ -119,7 +124,6 @@ ul {
 }
 
 .contact-anchor {
-	text-decoration: none;
 	color: white;
 	transition-duration: .6s;
   	transition-timing-function: ease;
@@ -164,8 +168,13 @@ ul {
 	width: 70%;
 }
 
+.project-description {
+	width: 65%;
+    margin: 20px auto;
+    color: #8c8c8c;
+}
+
 .project-links {
-	text-decoration: none;
     color: black;
     transition-duration: .6s;
   	transition-timing-function: ease;
@@ -174,6 +183,10 @@ ul {
 .project-links:hover,
 .project-links:active {
 	letter-spacing: 1.5px;
+}
+
+.thanks {
+	margin-top: 50px;
 }
 
 
