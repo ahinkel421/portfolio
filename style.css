@@ -13,7 +13,7 @@ main {
 
 h1 {
 	font-family: Josefin Sans,sans-serif;
-	font-size: 80px;
+	font-size: 90px;
 	margin-top: 125px;
 	margin-bottom: 0;
 }
@@ -23,7 +23,7 @@ ul {
 }
 
 .navbar {
-	background-color: #545454f5;
+	background-color: black;
 	position: fixed;
 	left: 0;
 	top: 0;
