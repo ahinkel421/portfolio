@@ -26,6 +26,7 @@ h2 {
 	font-family: Josefin Sans,sans-serif;
 	font-size: 40px;
 	font-weight: bolder;
+	margin-bottom: 40px;
 }
 
 ul {
@@ -118,10 +119,15 @@ ul {
 .skill-list-item {
 	display: inline-block;
 	width: 30%;
+	margin: 20px 0;
 }
 
 .skill {
 	height: 160px;
+}
+
+.project-image {
+	
 }
 
 
