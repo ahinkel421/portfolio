@@ -171,7 +171,7 @@ ul {
 }
 
 .project-image {
-	width: 70%;
+	width: 60%;
 }
 
 .project-description {
@@ -191,6 +191,23 @@ ul {
 
 .thanks {
 	margin-top: 50px;
+}
+
+/*Media Queries*/
+
+@media (min-width: 1600px) {
+	.headshot {
+		width: 15%;
+	}
+	.project-image {
+		width: 45%;
+	}
+}
+
+@media (min-width: 2000px) {
+	.project-image {
+		width: 35%;
+	}
 }
 
 
