@@ -37,6 +37,10 @@ ul {
 	padding: 0;
 }
 
+p {
+	font-size: 15px;
+}
+
 .adam-logo, 
 .left-nav-link, 
 .right-nav-link, 
@@ -64,7 +68,6 @@ ul {
 	width: 50px;
 	height: 50px;
 	padding: 3px;
-	background-image: url("images/color-logo.png");
 }
 
 .left-nav-link, .right-nav-link {
@@ -142,7 +145,6 @@ ul {
 }
 
 .about-me-description {
-	font-size: 15px;
 	line-height: 2;
 	width: 80%;
 	margin: 0 auto;
@@ -205,8 +207,99 @@ ul {
 }
 
 @media (min-width: 2000px) {
+	h2 {
+		font-size: 50px;
+	}
+
 	.project-image {
 		width: 35%;
+	}
+	.about-me-description {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 1150px) {
+	main {
+		margin: 20px;
+	}
+	h2 {
+		font-size: 42px;
+		width: 85%;
+		margin: 50px auto;
+	}
+	.skill {
+		height: 130px;
+	}
+
+	.about-me-description {
+		width: 70%;
+	}
+}
+
+@media (max-width: 1040px) {
+	main {
+		margin: 0;
+	}
+	h2 {
+		width: 100%;
+	}
+	.about-me-description {
+		width: 85%;
+	}
+}
+
+@media (max-width: 850px) {
+	h2 {
+		font-size: 38px;
+	}
+	p {
+		font-size: 14px;
+	}
+	.headshot {
+		width: 25%;
+	}
+	.pic-and-content {
+		margin: 60px 0;
+	}
+	.skill {
+		height: 110px;
+	}
+	.project-header {
+    	font-size: 18px;
+	}
+}
+
+@media (max-width: 750px) {
+	h2 {
+		font-size: 34px;
+	}
+	.project-image {
+		width: 80%;
+	}
+	.project-links {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 650px) {
+	h1, .thanks {
+		font-size: 80px;
+	}
+	.resume-link {
+    	left: 15px;
+	}
+	.projects-link {
+    	left: 92px;
+	}
+	.headshot {
+		width: 35%;
+	}
+	.github-link {
+    	right: 100px;
+	}
+	.linkedin-link {
+    	right: 15px;
 	}
 }
 
