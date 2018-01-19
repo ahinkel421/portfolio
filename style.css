@@ -95,6 +95,10 @@ p {
 	left: 30px;
 }
 
+.projects-link:hover {
+	cursor: pointer;
+}
+
 .linkedin-link:hover, 
 .github-link:hover, 
 .projects-link:hover, 
