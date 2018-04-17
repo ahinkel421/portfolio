@@ -3,7 +3,7 @@
 }
 
 body {
-	font-family: 'Playfair Display', serif;
+	font-family: "Playfair Display", serif;
 }
 
 main {
@@ -19,15 +19,16 @@ a {
 	text-decoration: none;
 }
 
-h1, .thanks {
-	font-family: Josefin Sans,sans-serif;
+h1,
+.thanks {
+	font-family: Josefin Sans, serif;
 	font-size: 90px;
 	margin-top: 150px;
 	margin-bottom: 0;
 }
 
 h2 {
-	font-family: Josefin Sans,sans-serif;
+	font-family: Josefin Sans, sans-serif;
 	font-size: 43px;
 	margin-bottom: 50px;
 }
@@ -41,13 +42,13 @@ p {
 	font-size: 18px;
 }
 
-.adam-logo, 
-.left-nav-link, 
-.right-nav-link, 
-.contact-anchor, 
+.adam-logo,
+.left-nav-link,
+.right-nav-link,
+.contact-anchor,
 .project-links {
-	transition-duration: .6s;
-  	transition-timing-function: ease;
+	transition-duration: 0.6s;
+	transition-timing-function: ease;
 }
 
 .navbar {
@@ -70,7 +71,8 @@ p {
 	margin-top: 8px;
 }
 
-.left-nav-link, .right-nav-link {
+.left-nav-link,
+.right-nav-link {
 	padding: 5px;
 	color: white;
 	font-size: 16px;
@@ -99,13 +101,13 @@ p {
 	cursor: pointer;
 }
 
-.linkedin-link:hover, 
-.github-link:hover, 
-.projects-link:hover, 
+.linkedin-link:hover,
+.github-link:hover,
+.projects-link:hover,
 .resume-link:hover,
-.linkedin-link:active, 
-.github-link:active, 
-.projects-link:active, 
+.linkedin-link:active,
+.github-link:active,
+.projects-link:active,
 .resume-link:active {
 	letter-spacing: 1.8px;
 	background-color: white;
@@ -120,13 +122,13 @@ p {
 
 .contact-button {
 	display: block;
-    margin: 20px auto;
-    background: black;
-    width: 120px;
-    height: 35px;
-    font-size: 15px;
-    font-family: 'Playfair Display', serif;
-    border-radius: 5px;
+	margin: 20px auto;
+	background: black;
+	width: 120px;
+	height: 35px;
+	font-size: 15px;
+	font-family: "Playfair Display", serif;
+	border-radius: 5px;
 }
 
 .contact-anchor {
@@ -150,7 +152,7 @@ p {
 }
 
 .learning-link {
-	color: #0370BE;
+	color: #0370be;
 }
 
 .skill-list-item {
@@ -178,12 +180,12 @@ p {
 
 .project-description {
 	width: 65%;
-    margin: 20px auto;
-    color: #8c8c8c;
+	margin: 20px auto;
+	color: #8c8c8c;
 }
 
 .project-links {
-    color: black;
+	color: black;
 }
 
 .project-links:hover,
@@ -266,7 +268,7 @@ p {
 		height: 110px;
 	}
 	.project-header {
-    	font-size: 18px;
+		font-size: 18px;
 	}
 }
 
@@ -283,33 +285,36 @@ p {
 }
 
 @media (max-width: 550px) {
-	h1, .thanks {
+	h1,
+	.thanks {
 		font-size: 80px;
 	}
 
-	.left-nav-link, .right-nav-link {
+	.left-nav-link,
+	.right-nav-link {
 		font-size: 13px;
 	}
 
 	.resume-link {
-    	left: 15px;
+		left: 15px;
 	}
 	.projects-link {
-    	left: 92px;
+		left: 92px;
 	}
 	.headshot {
 		width: 40%;
 	}
 	.github-link {
-    	right: 100px;
+		right: 100px;
 	}
 	.linkedin-link {
-    	right: 15px;
+		right: 15px;
 	}
 }
 
 @media (max-width: 460px) {
-	h1, .thanks {
+	h1,
+	.thanks {
 		font-size: 66px;
 	}
 	h2 {
@@ -331,8 +336,3 @@ p {
 		width: 95%;
 	}
 }
-
-
-
-
-
