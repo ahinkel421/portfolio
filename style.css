@@ -296,26 +296,31 @@ p {
 	}
 
 	.resume-link {
-		left: 15px;
+		left: 10px;
 	}
 	.projects-link {
-		left: 92px;
+		left: 80px;
 	}
 	.headshot {
 		width: 40%;
 	}
 	.github-link {
-		right: 100px;
+		right: 80px;
 	}
 	.linkedin-link {
-		right: 15px;
+		right: 10px;
+	}
+	.adam-logo {
+		width: 45px;
+		height: 45px;
+		margin-top: 10px;
 	}
 }
 
-@media (max-width: 460px) {
+@media only screen and (max-width: 460px) {
 	h1,
 	.thanks {
-		font-size: 66px;
+		font-size: 50px;
 	}
 	h2 {
 		font-size: 32px;
