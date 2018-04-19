@@ -289,31 +289,32 @@ p {
 	.thanks {
 		font-size: 80px;
 	}
-
+	.navbar {
+		height: 60px;
+	}
 	.left-nav-link,
 	.right-nav-link {
-		font-size: 13px;
+		font-size: 10px;
 	}
-
 	.resume-link {
-		left: 10px;
+		left: 5px;
 	}
 	.projects-link {
-		left: 80px;
+		left: 75px;
 	}
 	.headshot {
 		width: 40%;
 	}
 	.github-link {
-		right: 80px;
+		right: 75px;
 	}
 	.linkedin-link {
-		right: 10px;
+		right: 5px;
 	}
 	.adam-logo {
-		width: 45px;
-		height: 45px;
-		margin-top: 10px;
+		width: 30px;
+		height: 30px;
+		margin-top: 16px;
 	}
 }
 
