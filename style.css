@@ -36,6 +36,7 @@ h2 {
 ul {
 	list-style-type: none;
 	padding: 0;
+	margin-top: 0;
 }
 
 p {
@@ -280,7 +281,7 @@ p {
 		width: 80%;
 	}
 	.project-links {
-		font-size: 14px;
+		font-size: 13px;
 	}
 }
 
@@ -303,7 +304,7 @@ p {
 		left: 75px;
 	}
 	.headshot {
-		width: 40%;
+		width: 42%;
 	}
 	.github-link {
 		right: 75px;
@@ -325,11 +326,8 @@ p {
 		font-size: 46px;
 	}
 	h2 {
-		font-size: 22px;
+		font-size: 24px;
 		margin: 45px auto;
-	}
-	section {
-		margin: 50px 0;
 	}
 	p {
 		font-size: 13px;
@@ -341,10 +339,19 @@ p {
 	.about-me-description {
 		width: 90%;
 	}
+	.contact-button {
+		width: 75px;
+		height: 25px;
+		font-size: 10px;
+	}
 	.skill {
-		height: 80px;
+		height: 70px;
 	}
 	.project-image {
 		width: 95%;
+	}
+	.project-description {
+		width: 90%;
+		text-align: left;
 	}
 }
