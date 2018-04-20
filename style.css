@@ -301,7 +301,7 @@ p {
 		left: 5px;
 	}
 	.projects-link {
-		left: 75px;
+		left: 70px;
 	}
 	.headshot {
 		width: 42%;
@@ -335,7 +335,7 @@ p {
 	.greeting {
 		text-align: left;
 		width: 90%;
-		font-size: 20px;
+		font-size: 23px;
 	}
 	.about-me-description {
 		width: 90%;
@@ -344,6 +344,7 @@ p {
 		width: 95px;
 		height: 30px;
 		font-size: 13px;
+		font-weight: bold;
 	}
 	.skill {
 		height: 70px;
