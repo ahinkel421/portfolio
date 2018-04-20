@@ -116,6 +116,10 @@ p {
 	border-radius: 3px;
 }
 
+.mobile-pic-and-contact {
+	display: none;
+}
+
 .headshot {
 	border-radius: 100%;
 	width: 15%;
@@ -326,6 +330,9 @@ p {
 		margin-top: 100px;
 		font-size: 48px;
 	}
+	.mobile-pic-and-contact {
+		display: initial;
+	}
 	h2 {
 		font-size: 28px;
 		margin: 45px auto;
@@ -340,6 +347,9 @@ p {
 	}
 	.about-me-description {
 		width: 90%;
+	}
+	.desktop-pic-and-contact {
+		display: none;
 	}
 	.contact-button {
 		width: 105px;
