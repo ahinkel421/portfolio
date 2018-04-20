@@ -357,4 +357,22 @@ p {
 		width: 90%;
 		text-align: left;
 	}
+	.linkedin-link:hover,
+	.github-link:hover,
+	.projects-link:hover,
+	.resume-link:hover,
+	.contact-anchor:hover,
+	.contact-anchor:active,
+	.linkedin-link:active,
+	.github-link:active,
+	.projects-link:active,
+	.resume-link:active {
+		letter-spacing: 0;
+		background-color: black;
+		color: white;
+	}
+	.project-links:hover,
+	.project-links:active {
+		letter-spacing: 0;
+	}
 }
