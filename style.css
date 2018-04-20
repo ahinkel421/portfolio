@@ -322,10 +322,11 @@ p {
 	h1,
 	.thanks {
 		margin-top: 100px;
-		font-size: 50px;
+		font-size: 46px;
 	}
 	h2 {
-		font-size: 32px;
+		font-size: 22px;
+		margin: 45px auto;
 	}
 	section {
 		margin: 50px 0;
@@ -334,11 +335,11 @@ p {
 		font-size: 13px;
 	}
 	.greeting {
-		font-size: 26px;
+		text-align: left;
+		width: 90%;
 	}
 	.about-me-description {
 		width: 90%;
-		text-align: center;
 	}
 	.skill {
 		height: 80px;
