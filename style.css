@@ -364,12 +364,16 @@ p {
 	.skill {
 		height: 70px;
 	}
+	.project-box {
+		margin-bottom: 45px;
+	}
 	.project-image {
 		width: 90%;
 	}
 	.project-description {
 		width: 90%;
 		text-align: left;
+		margin: 10px auto;
 	}
 	.linkedin-link:hover,
 	.github-link:hover,
