@@ -337,6 +337,10 @@ p {
 	}
 	.about-me-description {
 		width: 90%;
+		text-align: center;
+	}
+	.skill {
+		height: 80px;
 	}
 	.project-image {
 		width: 95%;
