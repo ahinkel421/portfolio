@@ -296,6 +296,7 @@ p {
 	.left-nav-link,
 	.right-nav-link {
 		font-size: 10px;
+		font-weight: bold;
 	}
 	.resume-link {
 		left: 5px;
@@ -341,7 +342,7 @@ p {
 		width: 90%;
 	}
 	.contact-button {
-		width: 95px;
+		width: 105px;
 		height: 30px;
 		font-size: 13px;
 		font-weight: bold;
